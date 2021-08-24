@@ -11,7 +11,6 @@ module.exports = {
         });
 
         if (cepAlreadyExists) {
-          console.log(cepAlreadyExists)
           return res.json(cepAlreadyExists);
         };
 
@@ -41,10 +40,11 @@ module.exports = {
           ddd,
           siafi
         })
-        return res.json(newCep);
+
+        return res.status(200).json(newCep);
       } catch(err) {
         console.log(err)
-        return res.json({ message: "cep not found" });
+        return res.status(400).json({error: "Cep not found"});
       }
     },
 };
