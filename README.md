@@ -1,7 +1,9 @@
 <div align="center">
     <h2>EurekaFind-api</h2>
-</div>
 
+![Nextjs](https://img.shields.io/badge/-NodeJs-000000?style=flat-square&logo=node.js&logoColor=white "Node.js")
+
+</div>
 ---
 
 ## 🔥 O Projeto
