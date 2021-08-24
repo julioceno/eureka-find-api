@@ -40,12 +40,19 @@ Quando um cep for pesquisado pela primeira vez eu irei armazena-lo no banco de d
     $ yarn start
 ```
 
+### Logo após 
+Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
+MYSQL_HOST=localhost
+MYSQL_USER=SEU_USUÁRIO
+MYSQL_PASSWORD=SUA_SENHA
+MYSQL_DATABASE=NOME_DO_BANCO
+
 ---
 
 # 📝 Rotas da Aplicação
 
 ### Consultar o cep:
-**localhost:3000/getCep/:cep**
+localhost:3333/getCep/:cep
 
 ---
 
