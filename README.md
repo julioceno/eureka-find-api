@@ -44,16 +44,8 @@ Quando um cep for pesquisado pela primeira vez ele será armazenado no banco de 
 ```
 
 ### Logo após 
-**Crie um arquivo .env na raiz do projeto com as seguintes variáveis:**
-<br/>
-MYSQL_HOST=localhost
-<br/>
-MYSQL_USER=SEU_USUÁRIO
-<br/>
-MYSQL_PASSWORD=SUA_SENHA
-<br/>
-MYSQL_DATABASE=NOME_DO_BANCO
 
+Renomeie o arquivo **.env.example** para **.env** e mude os valores das variáveis de ambiente para os desesejados.
 ---
 
 # 📝 Rotas da Aplicação
