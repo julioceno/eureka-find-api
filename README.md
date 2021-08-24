@@ -59,7 +59,7 @@ MYSQL_DATABASE=NOME_DO_BANCO
 # 📝 Rotas da Aplicação
 
 ### Consultar o cep:
-localhost:3333/getCep/:cep
+`localhost:3333/getCep/:cep`
 
 ---
 
