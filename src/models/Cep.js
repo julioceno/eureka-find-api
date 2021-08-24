@@ -16,7 +16,7 @@ class Cep extends Model {
     }, {
       sequelize: connection,
     });
-  }
-}
+  };
+};
 
 module.exports = Cep;

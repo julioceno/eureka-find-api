@@ -5,6 +5,6 @@ const Cep = require("../models/Cep");
 
 const connection = new Sequelize(dbConfig);
 
-Cep.init(connection)
+Cep.init(connection);
 
 module.exports = connection;
