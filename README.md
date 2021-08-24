@@ -1,18 +1,20 @@
 <div align="center">
-    <h2>NLW-5</h2>
+    <h2>EurekaFind-api</h2>
 </div>
 
 ---
 
 ## 🔥 O Projeto
 
-Esse projeto foi desenvolvido como teste admissional para entrar na **Eureka labs**
+Esse projeto foi desenvolvido como teste admissional para entrar na **Eureka labs**. Usei o Sequelize para executar as migrations e acelerar no desenvolvimento, bem como facilitar a um outro desenvolvedor a trabalhar neste projeto no futuro se fosse o caso.
+O intuito da api é informar dados de um determinado cep buscado por um usuário, para fazer essas requisições foi utilizada a api da <a href="https://viacep.com.br/" target="_blank">viaCEP</a>. 
+Quando um cep for pesquisado pela primeira vez eu irei armazena-lo no banco de dados para que de uma proxíma vez essa requisição seja feita mais rápidamente.
 
 ## 🚀 Tecnologias Utilizadas
 
 - Express
 - Sequelize
-- MySql
+- MySQL
 - Axios
 
 ---
@@ -28,9 +30,22 @@ Esse projeto foi desenvolvido como teste admissional para entrar na **Eureka lab
     # Install dependencies
     $ yarn install
 
+    # Create database
+    $ yarn sequelize db:create
+
+    # Create tables
+    $ yarn sequelize db:migrate
+
     # Run the app
     $ yarn start
 ```
+
+---
+
+# 📝 Rotas da Aplicação
+
+### Consultar o cep:
+**localhost:3000/getCep/:cep**
 
 ---
 
