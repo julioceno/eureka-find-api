@@ -1,12 +1,5 @@
 <div align="center">
     <h2>EurekaFind-api</h2>
-
-![NodeJs](https://img.shields.io/badge/-NodeJs-00af91?style=flat-square&logo=node.js&logoColor=white "Node.js")
-![Sequelize](https://img.shields.io/badge/-Sequelize-00af91?style=flat-square&logo=sequelize.js&logoColor=white "Sequelize.js")
-![Express](https://img.shields.io/badge/-Express-00af91?style=flat-square&logo=express.js&logoColor=white "Express.js")
-![Axios](https://img.shields.io/badge/-Axios-00af91?style=flat-square&logo=axios.js&logoColor=white "Axios")
-![MySQL](https://img.shields.io/badge/-MySQL-00af91?style=flat-square&logo=mysql.js&logoColor=white "MySQL")
-
 </div>
 ---
 
