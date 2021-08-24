@@ -41,10 +41,14 @@ Quando um cep for pesquisado pela primeira vez eu irei armazena-lo no banco de d
 ```
 
 ### Logo após 
-Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
+**Crie um arquivo .env na raiz do projeto com as seguintes variáveis:**
+<br/>
 MYSQL_HOST=localhost
+<br/>
 MYSQL_USER=SEU_USUÁRIO
+<br/>
 MYSQL_PASSWORD=SUA_SENHA
+<br/>
 MYSQL_DATABASE=NOME_DO_BANCO
 
 ---
