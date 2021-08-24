@@ -8,7 +8,7 @@
 
 Esse projeto foi desenvolvido como teste admissional para entrar na **Eureka labs**. Usei o Sequelize para executar as migrations e acelerar no desenvolvimento, bem como facilitar a um outro desenvolvedor a trabalhar neste projeto no futuro se fosse o caso.
 O intuito da api é informar dados de um determinado cep buscado por um usuário, para fazer essas requisições foi utilizada a api da <a href="https://viacep.com.br/" target="_blank">viaCEP</a>. 
-Quando um cep for pesquisado pela primeira vez será armazenado no banco de dados para que de uma proxíma vez essa requisição seja feita mais rápidamente.
+Quando um cep for pesquisado pela primeira vez ele será armazenado no banco de dados para que de uma proxíma vez essa requisição seja feita mais rápidamente.
 
 ## 🚀 Tecnologias Utilizadas
 
