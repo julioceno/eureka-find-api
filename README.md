@@ -38,6 +38,9 @@ Quando um cep for pesquisado pela primeira vez ele será armazenado no banco de 
 
     # Run the app
     $ yarn start
+
+    # Run the app in development
+    $ yarn dev
 ```
 
 ### Logo após 
