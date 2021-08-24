@@ -1,6 +1,7 @@
 <div align="center">
     <h2>EurekaFind-api</h2>
 </div>
+
 ---
 
 ## 🔥 O Projeto
