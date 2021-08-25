@@ -25,7 +25,7 @@ Quando um cep for pesquisado pela primeira vez ele será armazenado no banco de 
     $ git clone https://github.com/julioceno/Eureka-find-api.git
 
     # Go into the repository
-    $ cd Eureka-find-api
+    $ cd eureka-find-api
 
     # Install dependencies
     $ yarn install
