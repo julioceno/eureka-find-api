@@ -22,7 +22,7 @@ Quando um cep for pesquisado pela primeira vez ele será armazenado no banco de 
 ## Para Clonar o projeto
 
 ```bash
-    $ git clone https://github.com/julioceno/Eureka-find-api.git
+    $ git clone https://github.com/julioceno/eureka-find-api.git
 
     # Go into the repository
     $ cd eureka-find-api
