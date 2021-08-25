@@ -1,5 +1,5 @@
 <div align="center">
-    <h2>EurekaFind-api</h2>
+    ## Eureka Find - API
 </div>
 
 ---
@@ -25,7 +25,7 @@ Quando um cep for pesquisado pela primeira vez ele será armazenado no banco de 
     $ git clone https://github.com/julioceno/Eureka-find-api.git
 
     # Go into the repository
-    $ cd eurekaFind-api
+    $ cd Eureka-find-api
 
     # Install dependencies
     $ yarn install
