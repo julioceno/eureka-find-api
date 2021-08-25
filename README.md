@@ -29,7 +29,13 @@ Quando um cep for pesquisado pela primeira vez ele será armazenado no banco de 
 
     # Install dependencies
     $ yarn install
+```
 
+### Logo após 
+
+Renomeie o arquivo **.env.example** para **.env** e mude os valores das variáveis de ambiente para os desesejados.
+
+```bash
     # Create database
     $ yarn sequelize db:create
 
@@ -42,11 +48,6 @@ Quando um cep for pesquisado pela primeira vez ele será armazenado no banco de 
     # Run the app in development
     $ yarn dev
 ```
-
-### Logo após 
-
-Renomeie o arquivo **.env.example** para **.env** e mude os valores das variáveis de ambiente para os desesejados.
-
 ---
 
 # 📝 Rotas da Aplicação
