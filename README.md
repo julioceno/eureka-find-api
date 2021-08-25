@@ -1,5 +1,5 @@
 <div align="center">
-    ## Eureka Find - API
+    <h2> Eureka Find - API </h2>
 </div>
 
 ---
